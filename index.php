@@ -1,7 +1,8 @@
 <?php
-// Simple PHP header for content-type, but it won't serve dynamic content
+// Simple PHP header for content-type, this will help if you need to use PHP for future dynamic content.
 header('Content-Type: text/html; charset=UTF-8');
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
