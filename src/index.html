@@ -1,17 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>cloud computing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Course Offers & Promotions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .course-card {
+            display: inline-block;
+            width: 30%;
+            margin: 15px 1%;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .course-card:hover {
+            transform: scale(1.05);
+        }
+
+        .course-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .course-card h3 {
+            color: #4CAF50;
+            margin: 20px 0;
+        }
+
+        .course-card p {
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        .promotions {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .promotion {
+            background-color: #ff5722;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
-
 <body>
-  <main>
-    <h1>p</h1>
-  </main>
-</body>
 
+<header>
+    <h1>Welcome to Our Online Learning Platform</h1>
+    <p>Explore our amazing courses and exclusive promotions!</p>
+</header>
+
+<div class="container">
+    <section class="courses">
+        <h2 class="section-title">Our Courses</h2>
+        <div class="course-card">
+            <img src="https://via.placeholder.com/400x250" alt="Course 1">
+            <h3>Web Development Basics</h3>
+            <p>Learn the fundamentals of web development with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="course-card">
+            <img src="https://via.placeholder.com/400x250" alt="Course 2">
+            <h3>Data Science with Python</h3>
+            <p>Unlock the power of Python for data analysis, machine learning, and more.</p>
+        </div>
+        <div class="course-card">
+            <img src="https://via.placeholder.com/400x250" alt="Course 3">
+            <h3>Digital Marketing Mastery</h3>
+            <p>Become a digital marketing expert by mastering SEO, PPC, and social media strategies.</p>
+        </div>
+    </section>
+
+    <section class="promotions">
+        <div class="promotion">20% OFF On All Courses!</div>
+        <div class="promotion">Limited Time Offer: Buy One, Get One Free!</div>
+        <div class="promotion">Free Trial for First 30 Days!</div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Online Learning Platform. All rights reserved.</p>
+</footer>
+
+</body>
 </html>
